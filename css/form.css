@@ -1,0 +1,26 @@
+body > .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 400px;
+  height: fit-content;
+  box-shadow: 10px 10px 7px #2c2c2c70;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.txt-heading {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.form-col-right > img {
+  width: 100%;
+}
